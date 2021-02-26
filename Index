@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="https://kit.fontawesome.com/6da635e2db.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/project.css">
+        <title>Laura Liber | Software Developer</title>
+    </head>
+    <body>
+        <nav class="menu">
+            <a href="index.html">Home</a>
+            <a href="bio.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        
+        <header class="header-in">
+            <h1>Web Design and Development</h1>
+            
+            <p><i class="fas fa-map-marker-alt"></i>Jacksonville, Florida</p>
+            
+           
+            <p class="btn">Contact</p>
+        </header>
+            <h2>Our Services</h2>
+        <main class="container">
+            <div class="services-container">
+            
+            
+            <div class="service">
+            
+            <!--web design-->
+            <h3>Web Design</h3>
+            <i class="fab fa-html5"></i>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus deleniti pariatur, a reiciendis laboriosam non qui distinctio suscipit, eos, tempore libero possimus placeat vel quisquam ipsam omnis? Odit, hic exercitationem?</p>
+        </div>
+        <div class="service">
+            <!--mobile-->
+            <h3>Mobile Apps</h3>
+            <i class="fab fa-android"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum recusandae molestiae id aliquid ea. Sint nulla debitis amet soluta voluptatum, voluptate cum! Reprehenderit natus repellendus beatae tempore dolor iste.</p>
+    </div>
+    
+           
+    
+    <div class="service">
+        <!--social media-->
+            <h3>Social Media</h3>
+            <i class="fab fa-facebook-square"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sint modi eius debitis quis quam nesciunt dicta? Culpa, ea! Neque veniam dignissimos qui explicabo voluptate alias mollitia sunt in velit!</p>
+        </div>  
+        </div>
+        <h2>Contact</h2>
+        <form class="form-msg" action="#">
+           <p>
+                <label for="name">Name:</label>
+                <input name="name"type="text">
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input name="email" type="text">
+            </p>
+            <p>
+                <label for="msg">Comments:</label>
+                <textarea name="msg" id="msg"></textarea>
+            </p>
+            <button class="btn btn-form">Send</button>
+        
+        </form>
+     </main>
+
+       
+    </body>
+</html>
